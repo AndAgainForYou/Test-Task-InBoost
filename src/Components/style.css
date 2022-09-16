@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Jost:ital@1&family=Montserrat&display=swap");
+.Header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 720px;
+}
+.Header .Header-block {
+  background-color: #ffffff;
+  width: 606px;
+  height: 410px;
+  box-shadow: 0 4px 30px rgba(4, 20, 32, 0.1);
+  border-radius: 4px;
+}
+.Header .Header-block label {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+.Header .Header-block input {
+  height: 40px;
+  width: 263px;
+  border: 1px solid #EAF2FF;
+  border-radius: 4px;
+  padding-left: 12px;
+}
+.Header .Header-block input:focus {
+  outline: none;
+  border: 1px solid #2C7DFA;
+  transition: 0.3s;
+}
+.Header .Header-block input::placeholder {
+  color: #ADB5BD;
+}
+.Header .Header-block select {
+  height: 40px;
+  width: 281px;
+  border: 1px solid #EAF2FF;
+  border-radius: 4px;
+  padding-left: 8px;
+  transition: 0.3s;
+  outline: none;
+}
+.Header .Header-block .badEmail {
+  border: 1px solid red;
+}
+.Header .Header-block .Header-block_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #EAF2FF;
+}
+.Header .Header-block .Header-block_head div {
+  display: flex;
+  align-items: center;
+}
+.Header .Header-block .Header-block_head div img {
+  width: 15px;
+  height: 15px;
+  margin: 17px;
+}
+.Header .Header-block .Header-block_head div p {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.Header .Header-block .Header-block_head img {
+  width: 12px;
+  height: 12px;
+  margin: 16px;
+}
+.Header .Header-block .Header-block_First-line {
+  display: flex;
+  justify-content: space-between;
+}
+.Header .Header-block .Header-block_First-line div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  margin-right: 10px;
+}
+.Header .Header-block .Header-block_Third-line {
+  display: flex;
+  justify-content: space-between;
+}
+.Header .Header-block .Header-block_Third-line div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  margin-right: 10px;
+}
+.Header .Header-block .Header-block_Third-line div label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3px;
+}
+.Header .Header-block .Header-block_Last-line {
+  display: flex;
+  justify-content: space-between;
+}
+.Header .Header-block .Header-block_Last-line div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  margin-right: 10px;
+}
+.Header .Header-block .Header-block_Last-line div input {
+  height: 36px;
+}
+.Header .Header-block .Header-block_Last-line div label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3px;
+}
+.Header .Header-block .Header-block_Footer button {
+  padding-bottom: 3px;
+  float: right;
+  margin-top: 23px;
+  margin-right: 19px;
+  width: 190px;
+  height: 40px;
+  border: 1px solid #2C7DFA;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  color: #2C7DFA;
+  background-color: #FFFFFF;
+}
+.Header .Header-block .Header-block_Footer button:hover {
+  color: #FFFFFF;
+  background-color: #2C7DFA;
+  transition: 0.3s;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Jost:ital@1&family=Montserrat&display=swap');
+.Header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 720px;
+
+  .Header-block {
+    background-color: #ffffff;
+    width: 606px;
+    height: 410px;
+    box-shadow: 0 4px 30px rgba(4, 20, 32, 0.1);
+    border-radius: 4px;
+
+    label {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 12px;
+      margin-top: 10px;
+      margin-bottom: 3px;
+    }
+
+    input {
+      height: 40px;
+      width: 263px;
+      border: 1px solid #EAF2FF;
+      border-radius: 4px;
+      padding-left: 12px;
+    }
+
+    input:focus {
+      outline: none;
+      border: 1px solid #2C7DFA;
+      transition: 0.3s;
+    }
+    input::placeholder {
+      color: #ADB5BD;
+    }
+
+    select {
+      height: 40px;
+      width: 281px;
+      border: 1px solid #EAF2FF;
+      border-radius: 4px;
+      padding-left: 8px;
+      transition: 0.3s;
+      outline: none;
+    }
+    .badEmail {
+      border: 1px solid red;
+    }
+
+    .Header-block_head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #EAF2FF;
+
+      div {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 15px;
+          height: 15px;
+          margin: 17px;
+        }
+
+        p {
+          font-weight: 500;
+          font-size: 14px;
+          margin-top: 10px;
+        }
+      }
+      img {
+        width: 12px;
+        height: 12px;
+        margin: 16px;
+      }
+    }
+
+    .Header-block_First-line {
+      display: flex;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 12px;
+        margin-right: 10px;
+      }
+    }
+
+    .Header-block_Third-line {
+      display: flex;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 12px;
+        margin-right: 10px;
+
+        label {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 3px;
+        }
+      }
+    }
+
+    .Header-block_Last-line {
+      display: flex;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 12px;
+        margin-right: 10px;
+
+        input {
+          height: 36px;
+        }
+
+        label {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 3px;
+        }
+      }
+    }
+    .Header-block_Footer {
+      button {
+        padding-bottom: 3px;
+        float: right;
+        margin-top: 23px;
+        margin-right: 19px;
+        width: 190px;
+        height: 40px;
+        border: 1px solid #2C7DFA;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        color: #2C7DFA;
+        background-color: #FFFFFF;
+      }
+      button:hover {
+        color: #FFFFFF;
+        background-color: #2C7DFA;
+        transition: 0.3s;
+      }
+    }
+  }
+}
